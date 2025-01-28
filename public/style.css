@@ -66,3 +66,42 @@
     padding: 0.5rem;
     cursor: pointer;
 }
+.tagLine{
+    padding-left: 0.5rem;
+    display:flex;
+    align-items: center;
+    height: 4rem;
+    font-size: 1.5rem;
+    color: #003060;
+    background-color: #c1e9f8;
+    font-weight: 700;
+}
+.specialists{
+    display:flex;
+    flex-wrap: wrap;
+    height: 30rem;
+    font-size: 1rem;
+    color:black;
+    font-weight: 700;
+    background-color: #c1e9f8;
+}
+.specialist{
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    height: 12rem;
+    width:10rem;
+    padding:1rem;
+    gap:1rem;
+    margin: 1rem;
+    margin-top: 0;
+    cursor:pointer;
+}
+.specialistImage{
+    height: 8rem;
+    width: 8rem;
+    background-color: #003060;
+    background-size: cover;
+}
