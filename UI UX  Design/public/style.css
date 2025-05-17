@@ -174,3 +174,122 @@
 .doctors .more{
     top: 3rem;
 }
+.services {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 150px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    z-index: 100;
+  }
+  
+  .services:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  /* ... your previous CSS ... */
+.navItem {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.navItem:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+    }
+    .searchBar {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .navbar {
+        flex-direction: column;
+        width: 100%;
+    }
+    .doctors {
+        justify-content: center;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+    }
+}
+.aboutHealup {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #9fdbf1;
+    border: 2px solid #003060;
+    color: black;
+    font-weight: 700;
+    gap: 2rem;
+}
+
+.healthIMG {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 1rem;
+    background-image: url("../images/Health.jpg");
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about {
+    max-width: 600px;
+    text-align: left;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #003060;
+}
+
+.about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+@media screen and (max-width: 768px) {
+    .aboutHealup {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .healthIMG {
+        width: 100%;
+        height: 12rem;
+        border-radius: 1rem;
+    }
+
+    .about {
+        padding: 1rem;
+    }
+}

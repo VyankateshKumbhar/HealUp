@@ -40,3 +40,10 @@ The OPD Management System is a comprehensive solution designed to streamline out
 ### Clone the repository:  
 ```sh
 git clone https://github.com/your-repo/opd-management-system.git
+
+
+Contact
+For queries or suggestions, contact:
+
+Developers: Vyankatesh Kumbhar, Parth Chandurakar, Sahil Pawar
+Institute: Vishwakarma Institute Of Information Technology
